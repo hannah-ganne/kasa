@@ -21,6 +21,7 @@
 }
 
 .host-info span {
+    text-align: right;
     max-width: 6em;
     margin-right: 1em;
 }
