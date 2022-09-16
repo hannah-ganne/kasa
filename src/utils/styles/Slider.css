@@ -19,9 +19,14 @@
 }
 
 .rightArrow {
-    right: 1.8em;
+    right: 0;
 }
 
 .slider span {
     color: #FFFFFF;
+    font-size: 1.1em;
+    font-weight: 500;
+    position: absolute;
+    bottom: 1.5em;
+    left: 50%;
 }
