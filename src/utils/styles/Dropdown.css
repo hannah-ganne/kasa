@@ -23,11 +23,13 @@
     color: #FF6060;
     font-size: 1.125em;
     font-weight: 500;
-    opacity: 0;
+    /* opacity: 0; */
+    display: none;
 }
 
 .dropdown-animated {
-    opacity: 1;
+    /* opacity: 1; */
+    display: block;
     animation: growDown 300ms ease-in-out forwards;
     transform-origin: top center
 }
