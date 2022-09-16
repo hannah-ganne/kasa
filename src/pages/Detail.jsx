@@ -3,6 +3,7 @@ import Slider from '../components/Slider'
 import Dropdown from '../components/Dropdown'
 import '../utils/styles/Detail.css'
 import Tag from '../components/Tag'
+import StarRating from '../components/StarRating'
 
 export default function Detail() {
     let { id } = useParams();
@@ -30,7 +31,7 @@ export default function Detail() {
                         <img src={host.picture} alt="avatar of the host" />
                     </div>
                     <div className="star-rating">
-
+                        <StarRating rating={parseInt(rating)} />
                     </div>
                 </div>
             </div>
