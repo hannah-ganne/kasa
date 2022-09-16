@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5em 6.25em;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin: 0 0.5em;
+}
+
+header ul li:last-of-type {
+    margin-right: 0;
+}
+
+footer {
+    background-color: #000000;
+    margin: 0;
+    padding: 2.5em 6.25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+footer img {
+    margin-bottom: 1em;
+}
+
+.tag {
+    background-color: #FF6060;
+    font-size: 0.8em;
+    font-weight: 500;
+    border-radius: 0.8em;
+    color: #FFFFFF;
+    padding: 0.5em 2em;
+    margin-right: 1em;
+}

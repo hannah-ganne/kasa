@@ -1,0 +1,19 @@
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.error-container h1 {
+    margin: 0;
+    font-size: 18em;
+}
+
+.error-container p {
+    margin-bottom: 10em;
+}
+
+.error-container a {
+    margin-bottom: 5em;
+    text-decoration: underline;
+}

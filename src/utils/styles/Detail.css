@@ -1,0 +1,32 @@
+.dropdown-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.accommodation-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1.3em;
+}
+
+.tags {
+    display: flex;
+}
+
+.host-info {
+    display: flex;
+    align-items: center;
+}
+
+.host-info span {
+    max-width: 6em;
+    margin-right: 1em;
+}
+
+.host-info img {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+}
