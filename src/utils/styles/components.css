@@ -1,6 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2.5em 6.25em;
 }
 
@@ -49,6 +50,7 @@ footer img {
     margin-top: 2em;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .stars-container img {
