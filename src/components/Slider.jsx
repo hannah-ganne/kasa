@@ -7,7 +7,6 @@ export default function Slider({ imageUrls, title }) {
 
     const [urls, setUrls] = useState(imageUrls)
     const [imageIndex, setImageIndex] = useState(0);
-    console.log(urls)
     const styles = {
         backgroundImage: `url(${urls[imageIndex]})`
     }
