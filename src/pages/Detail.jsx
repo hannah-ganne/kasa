@@ -22,7 +22,7 @@ export default function Detail() {
                     <h2>{title}</h2>
                     <p>{location}</p>
                     <div className="tags">
-                        {tags.map(item => <Tag>{item}</Tag>)}
+                        {tags.map(item => <Tag key={item}>{item}</Tag>)}
                     </div>
                 </div>
                 <div>
@@ -36,12 +36,12 @@ export default function Detail() {
                 </div>
             </div>
             <div className="dropdown-container">
-                <Dropdown title="Description" style={{width: '36em'}}>
+                <Dropdown title="Description" style={{width: '33em'}}>
                     {description}
                 </Dropdown>
-                <Dropdown title="Équipements" style={{width: '36em'}}>
+                <Dropdown title="Équipements" style={{width: '33em'}}>
                     <ul>
-                        {equipments.map(item => <li>{item}</li>)}
+                        {equipments.map(item => <li key={item}>{item}</li>)}
                     </ul>
                 </Dropdown>
             </div>
