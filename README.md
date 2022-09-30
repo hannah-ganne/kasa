@@ -1,7 +1,8 @@
 # Kasa
 
-It is a React UI challenge by OpenClassrooms without backend server.
-It was created using Vanilla React (no external libraries) as specified by OpenClassrooms.
+It is a React UI challenge by OpenClassrooms without backend server. </br>
+It was created using Vanilla React (no external libraries) as specified by OpenClassrooms.</br>
+Click here to see it live => [Kasa Demo](https://hannah-ganne.github.io/kasa/)
 
 ## Screenshots ##
 
